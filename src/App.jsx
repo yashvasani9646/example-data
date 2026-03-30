@@ -17,7 +17,7 @@ import Calculater2 from "./Demo-practice/Calculater2"
 // import { decrement, increment, reset,incrementbyAmount } from './counterSlice';
 // import { useState } from 'react';
 import Form from './CustomeHook/Form';
-import Input from "./CustomeHook/input"
+import Input from "./CustomeHook/Input"
 import Aggridtable from "./Aggrid table/Aggridtable"
 import MapTask from "./MapTask"
 
@@ -64,7 +64,7 @@ function App() {
       {/* <Pratice /> */}
       {/* <PieChart/> */}
       {/* <Form /> */}
-      {/* <Input /> */}
+      <Input />
       {/* <Aggridtable/> */}
 <MapTask/>
 
