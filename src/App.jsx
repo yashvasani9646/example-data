@@ -11,10 +11,15 @@ import SecondCrude from "./Demo-practice/SecondCrude"
 import UnemployeList from "./Demo-practice/UnemployeList"
 import { Chart } from "chart.js"
 import PieChart from "./Demo-practice/Chart"
+import Calculater2 from "./Demo-practice/Calculater2"
 
 // import './App.css'
 // import { decrement, increment, reset,incrementbyAmount } from './counterSlice';
 // import { useState } from 'react';
+import Form from './CustomeHook/Form';
+import Input from "./CustomeHook/input"
+import Aggridtable from "./Aggrid table/Aggridtable"
+import MapTask from "./MapTask"
 
 function App() {
   // const count = useSelector((state) => state.counter.value);
@@ -53,9 +58,15 @@ function App() {
 
 
 
-      <Calculater/>
-      <Pratice />
+      {/* <Calculater/> */}
+      {/* <Calculater2/> */}
+
+      {/* <Pratice /> */}
       {/* <PieChart/> */}
+      {/* <Form /> */}
+      {/* <Input /> */}
+      {/* <Aggridtable/> */}
+<MapTask/>
 
     </div>
 

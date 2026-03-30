@@ -1,16 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
+import Usecalculator from './UseCalculater'
 
 const Calculater = () => {
 
-    const [count, setCount] = useState(0)
 
-    const handleIncrease = () => {
-        setCount(count + 1)
-    }
-
-    const handleDecrease = () => {
-        setCount(count - 1)
-    }
+    const [count, handleIncrease, handleDecrease] = Usecalculator()
 
     return (
         <div>
