@@ -7,7 +7,7 @@ import {
 } from "react-simple-maps";
 
 const stateData = {
-  Gujarat: 200,
+  Gujarat: 800,
   Maharashtra: 300,
   Rajasthan: 150,
   Karnataka: 180,

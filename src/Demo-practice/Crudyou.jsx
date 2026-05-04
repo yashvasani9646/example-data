@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import toast, { Toaster } from 'react-hot-toast'
+import { Helmet } from "react-helmet";
 
 const Crudyou = () => {
     const [firstName, setFirstName] = useState('')
@@ -95,6 +96,10 @@ const Crudyou = () => {
 
         <div className='h-96 bg-slate-200 '>
             <Toaster position="top-center" />
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>DATA Title</title>
+            </Helmet>
 
             <div className='flex justify-center text-gray-600 text-xl '>
 
